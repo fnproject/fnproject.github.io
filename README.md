@@ -8,6 +8,8 @@ The container native, cloud agnostic serverless framework.
 # Start server:
 fn start
 
+# Open new console, then:
+
 # Create a function
 mkdir myfunc
 cd myfunc
