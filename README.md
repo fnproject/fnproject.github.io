@@ -5,10 +5,15 @@ The container native, cloud agnostic serverless framework.
 ## Quickstart
 
 ```sh
+# Install command line tool:
+curl -LSs https://raw.githubusercontent.com/fnproject/cli/master/install | sh
+# Set your Docker Hub username
+export FN_REGISTRY=<DOCKERHUB_USERNAME>
+
 # Start server:
 fn start
 
-# Open new console, then:
+# Open a new console, then:
 
 # Create a function
 mkdir myfunc
@@ -17,9 +22,6 @@ fn init --runtime go
 
 # Test your function
 fn run
-
-# Set your Docker Hub username
-export FN_REGISTRY=<DOCKERHUB_USERNAME>
 
 # Deploy your function
 fn deploy myapp
