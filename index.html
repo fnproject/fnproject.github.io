@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Favicon icon -->
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- Site Title -->
+    <title>Starto - Responsive Landing Template</title>
+
+    <!-- Google fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Animate -->
+    <link href="css/animate.css" rel="stylesheet">
+    
+    <!-- Icon-font -->
+    <link rel="stylesheet" type="text/css" href="css/material-design-iconic-font.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Color css -->
+    <link href="css/colors/red.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+
+<body data-spy="scroll" data-target="#navbar-menu">
+
+  <div class="navbar navbar-custom navbar-fixed-top sticky" role="navigation" style="background-color:white;">
+      <div class="container">
+
+        <!-- Navbar-header -->
+        <div class="navbar-header">
+          <!-- Responsive menu button -->
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <i class="zmdi zmdi-menu"></i>
+          </button>
+
+          <!-- LOGO -->
+          <a class="navbar-brand logo" href="index.html">
+            <img src="images/fn-300x125.png" style="height:24px;"/>
+          </a>
+
+        </div>
+        <!-- end navbar-header -->
+
+        <!-- menu -->
+        <div class="navbar-collapse collapse" id="navbar-menu">
+
+          <!-- Navbar left -->
+          <ul class="nav navbar-nav nav-custom-left">
+            <li class="active">
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#features">Features</a>
+            </li>
+            <li>
+              <a href="#faq">FAQ</a>
+            </li>
+          </ul>
+
+          <!-- Navbar right -->
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="https://github.com/fnproject/fn" class="btn btn-inverse btn-bordered navbar-btn">View on GitHub</a>
+            </li>
+          </ul>
+
+        </div>
+        <!--/Menu -->
+      </div>
+      <!-- end container -->
+  </div>
+  <!-- End navbar-custom -->
+
+
+  <!-- HOME -->
+  <section class="home home-form-left" id="home" style="background-color:white;">
+    <!-- <div class="bg-overlay"></div> -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-6">
+
+          <div class="home-wrapper">
+            <h2 class="animated fadeInDown wow" data-wow-delay=".1s" style="font-size:34px;">
+              <img src="images/fn-300x125.png" style="height:34px; vertical-align:baseline;"/> Project
+            </h2>
+            <p class="animated fadeInDown wow text-muted" data-wow-delay=".2s">
+              The Fn project is a container native serverless platform that you can run anywhere -- any cloud or on-premise. It’s easy to use, supports every programming language, and is extensible and performant.
+            </p>
+            <a href="https://github.com/fnproject/fn" class="btn btn-primary btn-shadow btn-rounded w-lg animated fadeInDown wow" data-wow-delay=".4s">Get Started</a>
+            <div class="clearfix"></div>
+          </div><!-- home wrapper -->
+
+        </div> <!-- end col -->
+
+        <div class="col-md-6 col-sm-6">
+          <div class="video-bar" style="padding-top:30px;">
+            <img src="images/cli.gif" class="img-responsive" style="width:500px; border:1px gray solid;">
+          </div>
+      </div>
+
+      </div> <!-- end row -->
+    </div> <!-- end container -->
+  </section>
+  <!-- END HOME -->
+
+
+  <!-- FEATURES -->
+  <section class="section" id="features" style="background-color:#ededed;">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <div class="title-box">
+            <p class="title-alt">Features</p>
+            <h3 class="fadeIn animated wow" data-wow-delay=".1s">Our Best Features</h3>
+            <div class="border"></div>
+          </div>
+        </div> 
+      </div> <!-- end row -->
+
+      <div class="row text-center">
+        <div class="col-sm-4">
+          <div class="service-item animated fadeInLeft wow" data-wow-delay=".1s">
+            <img src="images/icons/cup.svg" width="48" alt="img">
+            <div class="service-detail">
+              <h4>Multi-Language</h4>
+              <p>Write functions in your favorite programming language with out of the
+                box support for Java, Go, Ruby, Python, PHP, and Node.js (including Lambda functions)</p>
+            </div> <!-- /service-detail -->
+          </div> <!-- /service-item -->
+        </div> <!-- /col -->
+
+        <div class="col-sm-4">
+          <div class="service-item animated fadeInDown wow" data-wow-delay=".3s">
+            <img src="images/icons/diploma.svg" width="48" alt="img">
+            <div class="service-detail">
+                <h4>Container Native</h4>
+                <p>
+                  Fn packages your functions as containers and runs on any platform supporting
+                  Docker. Push your functions to a repository and deploy anywhere--your laptop or the cloud.
+                </p>
+            </div> <!-- /service-detail -->
+          </div> <!-- /service-item -->
+        </div> <!-- /col -->
+
+        <div class="col-sm-4">
+          <div class="service-item animated fadeInRight wow" data-wow-delay=".5s">
+            <img src="images/icons/combo_chart.svg" width="48" alt="img">
+            <div class="service-detail">
+                <h4>Powerful</h4>
+                <p>
+                  Deploying a simple function with Fn is extremely easy. But Fn also provides
+                  developers with the knobs and controls they need to implement functions with complex requirements.
+                  Easy for the beginner, but powerful enough for the expert.
+                </p>
+             </div> <!-- /service-detail -->
+          </div> <!-- /service-item -->
+        </div> <!-- /col -->       
+      </div> <!--end row -->
+
+    </div> <!-- end container -->
+  </section>
+  <!-- END FEATURES -->
+
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <div class="title-box">
+            <p class="title-alt">Faq</p>
+            <h3 class="fadeIn animated wow" data-wow-delay=".1s">Simple Questions</h3>
+            <div class="border"></div>
+          </div>
+        </div> 
+      </div> <!-- end row -->
+
+      <div class="row m-t-30">
+        <div class="col-md-5 col-md-offset-1">
+          <!-- Question/Answer -->
+          <div class="question-q-box">Q.</div>
+          <div class="animated fadeInLeft wow" data-wow-delay=".1s">
+            <h4 class="question" data-wow-delay=".1s">Which languages are supported?</h4>
+            <p class="answer">Since we use containers as the base building block, all languages can be used. There may not be higher level helper libraries like our Lambda wrapper for every language, but you can use any language if you follow the base function format.</p>
+          </div>
+
+        </div>
+        <!--/col-md-5 -->
+
+        <div class="col-md-5">
+          <!-- Question/Answer -->
+          <div class="question-q-box">Q.</div>
+          <div class="animated fadeInRight wow" data-wow-delay=".2s">
+            <h4 class="question">Where can I run Fn?</h4>
+            <p class="answer">Anywhere. Any cloud, on-premise, on your laptop. As long as you can run a Docker container, you can run Fn.</p>
+          </div>
+
+        </div>
+        <!--/col-md-5-->
+      </div>
+
+    </div>
+  </section>
+  <!-- END FAQ -->
+
+  
+  <!-- FOOTER -->
+  <footer class="section bg-gray footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-6">
+          <h5>Fn Project</h5>
+          <ul class="list-unstyled">
+            <li><a href="https://github.com/fnproject/fn">GitHub</a></li>
+            <li><a href="https://fnproject.github.io">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <h5>Connect</h5>
+          <ul class="list-unstyled">
+            <li><a href="https://medium.com/fnproject">Medium</a></li>
+            <li><a href="https://twitter.com/fnproj">Twitter</a></li>
+            <li><a href="https://join.slack.com/t/fnproject/shared_invite/MjIwNzc5MTE4ODg3LTE1MDE0NTUyNTktYThmYmRjZDUwOQ">Slack</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="footer-alt">
+            <p class="pull-right text-muted m-b-0">2017 © Fn</p>
+            <a class="navbar-brand logo" href="index.html">
+              <img src="images/fn-300x125.png" style="height:24px;"/>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- END FOOTER -->
+
+
+  <!-- Back to top -->
+  <a href="#" class="back-to-top"> <i class="zmdi zmdi-chevron-up"> </i> </a>
+
+
+
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Jquery easing -->                                                      
+    <script type="text/javascript" src="js/jquery.easing.1.3.min.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <!--sticky header-->
+    <script type="text/javascript" src="js/jquery.sticky.js"></script>
+        
+    <!--common script for all pages-->
+    <script src="js/jquery.app.js"></script>
+    
+  </body>
+</html>
