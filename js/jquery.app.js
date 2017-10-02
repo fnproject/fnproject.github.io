@@ -1,11 +1,3 @@
-/* Theme Name: Starto - Responsive Landing page template
-   Author: Coderthemes
-   Author e-mail: coderthemes@gmail.com
-   Version: 1.0.0
-   Created:Feb 2016
-   File Description:Main JS file of the template
-*/
-
 /* ==============================================
 Smooth Scroll To Anchor
 =============================================== */
