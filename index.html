@@ -13,7 +13,7 @@
     <link rel="manifest" href="/manifest.json">
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ff0000">
     <meta name="theme-color" content="#ffffff">
-    
+
     <!-- Site Title -->
     <title>Fn Project - The Container Native Serverless Framework</title>
 
@@ -29,7 +29,7 @@
 
     <!-- Icon-font -->
     <link rel="stylesheet" type="text/css" href="css/material-design-iconic-font.min.css">
-    
+
     <!--owl carousel css-->
     <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" media="screen">
     <link href="css/owl.theme.css" rel="stylesheet" type="text/css" media="screen">
@@ -50,63 +50,6 @@
 
 <body data-spy="scroll" data-target="#navbar-menu">
 
-  <div class="navbar navbar-custom navbar-fixed-top sticky" role="navigation" style="background-color:white;">
-      <div class="container">
-
-        <!-- Navbar-header -->
-        <div class="navbar-header">
-          <!-- Responsive menu button -->
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <i class="zmdi zmdi-menu"></i>
-          </button>
-
-          <!-- LOGO
-          <a class="navbar-brand logo" href="index.html">
-            <img src="images/fn-300x125.png" style="height:24px;"/>
-          </a>
-           -->
-
-        </div>
-        <!-- end navbar-header -->
-
-        <!-- menu -->
-        <div class="navbar-collapse collapse" id="navbar-menu">
-
-          <!-- Navbar left -->
-          <ul class="nav navbar-nav nav-custom-left">
-            <li class="active">
-              <a href="#home">Home</a>
-            </li>
-            <li>
-              <a href="#features">Features</a>
-            </li>
-            <li>
-                <a href="#blogs">Blogs</a>
-            </li>
-            <li>
-              <a href="#twitter">Twitter</a>
-            </li>
-            <li>
-              <a href="#faq">FAQ</a>
-            </li>
-            <li>
-              <a href="#connect">Connect</a>
-            </li>
-          </ul>
-
-          <!-- Navbar right -->
-          <ul class="nav navbar-nav navbar-right">
-            <li>
-              <a href="https://github.com/fnproject/fn" class="btn btn-inverse btn-bordered navbar-btn">View on GitHub</a>
-            </li>
-          </ul>
-
-        </div>
-        <!--/Menu -->
-      </div>
-      <!-- end container -->
-  </div>
-  <!-- End navbar-custom -->
 
 
   <!-- HOME -->
@@ -121,9 +64,9 @@
               <img src="images/fn-300x125.png" style="height:70px; vertical-align:baseline;"/> Project
             </h2>
             <p class="animated fadeInDown wow" data-wow-delay=".2s" style="font-size:x-large">
-              The Fn project is an open-source container-native serverless platform that you can run anywhere -- any cloud or on-premise. It’s easy to use, supports every programming language, and is extensible and performant.
+              The Fn project is an open-source container-native serverless platform that you can run anywhere -- any cloud or on-premise. It’s easy to use, supports every programming language, and is extensible and performant.<br>
+              <a href="https://github.com/fnproject/fn" class="btn btn-inverse btn-bordered navbar-btn">View on GitHub</a>
             </p>
-            <a href="https://github.com/fnproject/fn" class="btn btn-primary btn-shadow btn-rounded w-lg animated fadeInDown wow" data-wow-delay=".4s">Get Started</a>
             <div class="clearfix"></div>
           </div><!-- home wrapper -->
 
@@ -140,6 +83,47 @@
   </section>
   <!-- END HOME -->
 
+  <!-- Navigation -->
+  <div class="navbar navbar-custom" role="navigation" style="background-color:white;">
+      <div class="container">
+
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <div class="title-box">
+            <p class="title-alt">Get Started</p>
+            <h3>Tutorials</h3>
+            <div class="border"></div>
+          </div>
+        </div>
+      </div> <!-- end row -->
+
+    <script> <!-- Triggers popup text -->
+        $(document).ready(function() {
+            $("[rel=popover]").popover({'trigger':'hover'});
+        });
+    </script>
+          <style type="text/css">
+#iconlist { margin:0px auto 20px auto !important; text-align:center;}
+#iconlist a{padding:20px; }
+          </style>
+        <div id="iconlist">
+            <a href="https://fnproject.io/tutorials/Introduction/" rel="popover" title="Go"><img src="images/langs/golang64.png" alt="Go logo"></a>
+
+             <a href="https://fnproject.io/tutorials/JavaFDKIntroduction/" rel="popover" title="Java"><img src="images/langs/java-logo.png" alt="Java logo"></a>
+
+             <a href="https://fnproject.io/tutorials/node/intro/" rel="popover" title="Node.js"><img src="images/langs/nodejs-logo.png" alt="Node.js logo"></a>
+
+            <a href="https://fnproject.io/tutorials/python/intro/" title="Python" rel="popover"><img src="images/langs/Python76.png"  alt="Python logo"></a>
+
+            <a href="https://fnproject.io/tutorials/ruby/intro/" rel="popover" title="Ruby"><img src="images/langs/ruby-logo.png" alt="Ruby logo"></a>
+      </div> <!-- end div -->
+      </div>
+      <!-- end container -->
+  </div>
+  <!-- End navbar-custom -->
+
+
+
   <!-- FEATURES -->
   <section class="section" id="features" >
     <div class="container">
@@ -148,10 +132,10 @@
         <div class="col-sm-12 text-center">
           <div class="title-box">
             <p class="title-alt">Features</p>
-            <h3 class="fadeIn animated wow" data-wow-delay=".1s">Our Best Features</h3>
+            <h3>Our Best Features</h3>
             <div class="border"></div>
           </div>
-        </div> 
+        </div>
       </div> <!-- end row -->
 
       <div class="row text-center">
@@ -191,121 +175,55 @@
                 </p>
              </div> <!-- /service-detail -->
           </div> <!-- /service-item -->
-        </div> <!-- /col -->       
+        </div> <!-- /col -->
       </div> <!--end row -->
 
     </div> <!-- end container -->
   </section>
   <!-- END FEATURES -->
 
-    <!-- SOCIAL -->
-    <section class="section" id="social" style="background-color:#ededed;">
+
+  <!-- Navigation -->
+  <div class="navbar navbar-custom" role="navigation" style="background-color:white;">
       <div class="container">
-  
-        <div class="row m-t-30">
-  
-          <div class="col-md-5 col-md-offset-1" id="blogs">
-            <!-- Medium -->
-            <div class="col-sm-12 text-center">
-              <div class="title-box">
-                <h3 data-wow-delay=".1s">Fn Blogs</h3>
-                <div class="border"></div>
-              </div>
-            </div> 
-            <!-- start feedwind code -->
-            <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="57346/"></script>
-            <!-- end feedwind code -->
-          </div>
-          <!--/col-md-5-->
-          
-          <div class="col-md-5" id="twitter">
-            <!-- Twitter -->
-            <div class="col-sm-12 text-center">
-              <div class="title-box">
-                <h3 data-wow-delay=".1s">Fn Tweets</h3>
-                <div class="border"></div>
-              </div>
-            </div> 
-            <a class="twitter-timeline" data-height="400" data-link-color="#E81C4F" href="https://twitter.com/fnproj?ref_src=twsrc%5Etfw">Tweets by fnproj</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-          </div>
-          <!--/col-md-5-->
-            
-      </div>
-    </section>
-    <!-- END SOCIAL -->
+          <style type="text/css">
+@media only screen and (min-width: 768px) and (max-width: 991px){
+  .navbar-custom .navbar-nav li a { font-size: 14px; }
+}
+          </style>
 
-  <!-- FAQ -->
-  <section class="section" id="faq">
-    <div class="container">
+        <!-- menu -->
+        <div id="navbar-menu">
 
-      <div class="row">
-        <div class="col-sm-12 text-center">
-          <div class="title-box">
-            <p class="title-alt">Faq</p>
-            <h3 class="fadeIn animated wow" data-wow-delay=".1s">Simple Questions</h3>
-            <div class="border"></div>
-          </div>
-        </div> 
-      </div> <!-- end row -->
+          <!-- Navbar left -->
 
-      <div class="row m-t-30">
-        <div class="col-md-5 col-md-offset-1">
-          <!-- Question/Answer -->
-          <div class="question-q-box">Q.</div>
-          <div class="animated fadeInLeft wow" data-wow-delay=".1s">
-            <h4 class="question" data-wow-delay=".1s">Which languages are supported?</h4>
-            <p class="answer">Since we use containers as the base building block, all languages can be used. There may not be higher level helper libraries like our Lambda wrapper for every language, but you can use any language if you follow the base function format.</p>
-          </div>
 
-        </div>
-        <!--/col-md-5 -->
-
-        <div class="col-md-5">
-          <!-- Question/Answer -->
-          <div class="question-q-box">Q.</div>
-          <div class="animated fadeInRight wow" data-wow-delay=".2s">
-            <h4 class="question">Where can I run Fn?</h4>
-            <p class="answer">Anywhere. Any cloud, on-premise, on your laptop. As long as you can run a Docker container, you can run Fn.</p>
-          </div>
-
-        </div>
-        <!--/col-md-5-->
-      </div>
-
-    </div>
-  </section>
-  <!-- END FAQ -->
-
-  
-  <!-- FOOTER -->
-  <footer class="section bg-gray footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3 col-sm-6">
-          <h5>Fn Project</h5>
-          <ul class="list-unstyled">
-            <li><a href="https://github.com/fnproject/fn">GitHub</a></li>
-            <li><a href="https://fnproject.github.io">Home</a></li>
-            <li><a href="#features">Features</a></li>
-            <li><a href="#faq">FAQ</a></li>
-          </ul>
-        </div>
-
-        <div class="col-md-3 col-sm-6" id="connect">
-          <h5>Connect</h5>
-          <ul class="list-unstyled">
+          <ul class="nav navbar-nav nav-custom-left" >
+            <li class="active" style="font-weight:bold;"><a href="">Connect:</a></li>
+            <li><a href="https://github.com/fnproject/fn">GitHub</a>
+            </li>
             <li><a href="https://join.slack.com/t/fnproject/shared_invite/MjIwNzc5MTE4ODg3LTE1MDE0NTUyNTktYThmYmRjZDUwOQ">Slack</a></li>
             <li><a href="https://medium.com/fnproject">Medium</a></li>
             <li><a href="https://twitter.com/fnproj">Twitter</a></li>
             <li><a href="https://www.youtube.com/fnproj">YouTube</a></li>
+            <li><a href="https://fnproject.io/tutorials">Tutorials</a></li>
           </ul>
         </div>
+        <!--/Menu -->
       </div>
+      <!-- end container -->
+  </div>
+  <!-- End navbar-custom -->
 
+
+
+  <!-- FOOTER -->
+  <footer class="section bg-gray footer">
+    <div class="container">
       <div class="row">
         <div class="col-sm-12">
           <div class="footer-alt">
-            <p class="pull-right text-muted m-b-0">2017 © Fn</p>
+            <p class="pull-right text-muted m-b-0">2018 © Fn</p>
             <a class="navbar-brand logo" href="index.html">
               <img src="images/fn-300x125.png" style="height:24px;"/>
             </a>
@@ -326,15 +244,15 @@
     <!-- js placed at the end of the document so the pages load faster -->
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <!-- Jquery easing -->                                                      
+    <!-- Jquery easing -->
     <script type="text/javascript" src="js/jquery.easing.1.3.min.js"></script>
     <script src="js/wow.min.js"></script>
 
     <!--sticky header-->
     <script type="text/javascript" src="js/jquery.sticky.js"></script>
-        
+
     <!--common script for all pages-->
     <script src="js/jquery.app.js"></script>
-    
+
   </body>
 </html>
