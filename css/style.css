@@ -43,8 +43,8 @@ iframe {
 
 /*======= Helper classes ======== */
 .section {
-  padding-top: 100px;
-  padding-bottom: 80px;
+  padding-top: 10px;
+  padding-bottom: 8px;
 }
 
 .bg-gray {
@@ -68,13 +68,13 @@ iframe {
 .bg-gradient-1 {
   background: #5f2c82; /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #5f2c82 , #49a09d); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #5f2c82 , #49a09d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+  background: linear-gradient(to left, #5f2c82 , #49a09d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .bg-gradient-2 {
   background: #24C6DC; /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #24C6DC , #514A9D); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #24C6DC , #514A9D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+  background: linear-gradient(to left, #24C6DC , #514A9D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .bg-overlay {
@@ -209,10 +209,10 @@ iframe {
 .btn-success:active,
 .btn-success:focus,
 .btn-success:hover,
-.open > .dropdown-toggle.btn-success,.btn-success.active.focus, 
-.btn-success.active:focus, .btn-success.active:hover, 
-.btn-success:active.focus, .btn-success:active:focus, 
-.btn-success:active:hover, .open>.dropdown-toggle.btn-success.focus, 
+.open > .dropdown-toggle.btn-success,.btn-success.active.focus,
+.btn-success.active:focus, .btn-success.active:hover,
+.btn-success:active.focus, .btn-success:active:focus,
+.btn-success:active:hover, .open>.dropdown-toggle.btn-success.focus,
 .open>.dropdown-toggle.btn-success:focus, .open>.dropdown-toggle.btn-success:hover {
   background-color: #009886;
   border: 1px solid #009886;
@@ -231,9 +231,9 @@ iframe {
 .btn-info:active,
 .btn-info:focus,
 .btn-info:hover,
-.open > .dropdown-toggle.btn-info,.btn-info.active.focus, 
-.btn-info.active:focus, .btn-info.active:hover, .btn-info:active.focus, 
-.btn-info:active:focus, .btn-info:active:hover, .open>.dropdown-toggle.btn-info.focus, 
+.open > .dropdown-toggle.btn-info,.btn-info.active.focus,
+.btn-info.active:focus, .btn-info.active:hover, .btn-info:active.focus,
+.btn-info:active:focus, .btn-info:active:hover, .open>.dropdown-toggle.btn-info.focus,
 .open>.dropdown-toggle.btn-info:focus, .open>.dropdown-toggle.btn-info:hover {
   background-color: #25d8f6;
   border: 1px solid #25d8f6;
@@ -252,9 +252,9 @@ iframe {
 .btn-warning:active,
 .btn-warning:focus,
 .btn-warning:hover,
-.open > .dropdown-toggle.btn-warning,.btn-warning.active.focus, .btn-warning.active:focus, 
-.btn-warning.active:hover, .btn-warning:active.focus, .btn-warning:active:focus, 
-.btn-warning:active:hover, .open>.dropdown-toggle.btn-warning.focus, 
+.open > .dropdown-toggle.btn-warning,.btn-warning.active.focus, .btn-warning.active:focus,
+.btn-warning.active:hover, .btn-warning:active.focus, .btn-warning:active:focus,
+.btn-warning:active:hover, .open>.dropdown-toggle.btn-warning.focus,
 .open>.dropdown-toggle.btn-warning:focus, .open>.dropdown-toggle.btn-warning:hover {
   background-color: #e69900;
   border: 1px solid #e69900;
@@ -273,9 +273,9 @@ iframe {
 .btn-danger:active,
 .btn-danger:focus,
 .btn-danger:hover,
-.open > .dropdown-toggle.btn-danger,.btn-danger.active.focus, .btn-danger.active:focus, 
-.btn-danger.active:hover, .btn-danger:active.focus, .btn-danger:active:focus, 
-.btn-danger:active:hover, .open>.dropdown-toggle.btn-danger.focus, 
+.open > .dropdown-toggle.btn-danger,.btn-danger.active.focus, .btn-danger.active:focus,
+.btn-danger.active:hover, .btn-danger:active.focus, .btn-danger:active:focus,
+.btn-danger:active:hover, .open>.dropdown-toggle.btn-danger.focus,
 .open>.dropdown-toggle.btn-danger:focus, .open>.dropdown-toggle.btn-danger:hover {
   background-color: #ed3c39;
   border: 1px solid #ed3c39;
@@ -666,7 +666,7 @@ iframe {
 }
 
 .clients-dark {
- border-top: 1px solid rgba(255,255,255,0.1); 
+ border-top: 1px solid rgba(255,255,255,0.1);
 }
 
 
@@ -723,8 +723,8 @@ iframe {
 /*======= Footer =======*/
 
 .footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 
 .footer h5{
@@ -744,9 +744,8 @@ iframe {
 }
 
 .footer-alt {
-  border-top: 1px solid rgba(151, 160, 175, 0.2);
-  margin-top: 30px;
-  padding-top: 20px;
+  margin-top: 10px;
+  padding-top: 10px;
 }
 
 .footer-alt .logo {
@@ -1070,7 +1069,7 @@ iframe {
 
 /* Home Form */
 .home-form-left {
-  padding: 170px 0 130px 0;
+  padding: 17px 0 13px 0;
 }
 .home-form-left .home-wrapper{
   padding: 0;
@@ -1168,11 +1167,15 @@ iframe {
   padding: 11px 30px;
 }
 
+/* Added by mike**/
+.container-text { width:50em; }
+.image-size {height:120px;}
+
 
 /*======= Responsive ======*/
 @media (min-width: 768px) {
 	.nav-custom-left {
-		margin-left: 5%;
+		margin-left:20%;
 	}
   .navbar-nav>li>a {
     padding-top: 10px;
@@ -1199,6 +1202,9 @@ iframe {
   .footer h5 {
     margin-top: 30px;
   }
+
+  .container-text { width:100%; }
+  .image-size {height:80px;}
 }
 
 
